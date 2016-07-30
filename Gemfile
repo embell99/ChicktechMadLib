@@ -4,12 +4,13 @@ group :development, :test do
   gem 'sqlite3'
 end
 group :production do
+  gem 'pg'
+end
 #Access an IRB console on
 #gem 'web-console', '~> 2.0'
 
 #Spring speeds up development
 gem 'spring'
-end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0'
